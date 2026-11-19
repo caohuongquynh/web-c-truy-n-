@@ -1,0 +1,17 @@
+# Chặn thư mục chứa thư viện node trong cả be và fe
+**/node_modules/
+**/dist/
+**/.env
+
+# Chặn các file cấu hình hệ thống
+.DS_Store
+Thumbs.db
+
+# Chặn các file log
+*.log
+
+# Maven build directory
+**/target/
+.idea/
+.vscode/
+*.iml
